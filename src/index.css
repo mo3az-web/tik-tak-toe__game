@@ -349,3 +349,37 @@ ol {
     transform: scale(1);
   }
 }
+@media (max-width: 768px) {
+  #game-container {
+    padding: 1rem;
+  }
+
+  #players li {
+    width: 100%;
+  }
+
+  #players button {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  #game-board button {
+    width: 6rem;
+    height: 6rem;
+    font-size: 4rem;
+    padding: 0.5rem;
+  }
+
+  #game-over h2 {
+    font-size: 3rem;
+  }
+
+  #game-over p {
+    font-size: 1.5rem;
+  }
+
+  #game-over button {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+}
